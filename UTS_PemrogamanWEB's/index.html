@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pemrogaman WEB | Muhamad Arif</title>
+  <link rel="stylesheet" href="Assets/styles/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <div class="dropdown">
+            <li>
+              <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+                <a href="infoTanaman.html">Info Tanaman</a>
+                <a href="#">Budidaya</a>
+                <a href="#">Harga Pasar</a>
+              </div>
+            </li>
+        </div>
+        <div class="dropdown-dua">
+          <li>
+            <button class="dropbtn">Tentang Kami</button>
+            <div class="dropdown-content">
+              <a href="#">Pembuat</a>
+              <a href="#">Web kami</a>
+            </div>
+          </li>
+        </div>
+        <div class="dropdown-tiga">
+          <li>
+            <button class="dropbtn">Kontak</button>
+            <div class="dropdown-content">
+              <a href="#">Facebook</a>
+              <a href="#">Whatsapp</a>
+              <a href="#">Instagram</a>
+              </div>
+            </li>
+          </div>
+    </ul>
+    </nav>
+  </div>
+
+<section>
+
+  <h1>Selamat Datang di Perusahaan Tanaman</h1>
+  <p>Kami dengan hangat menyambut Anda di tempat di mana kehidupan hijau tumbuh dan berkembang. Bersama kami, Anda akan menemukan keindahan, ketenangan, dan harmoni melalui berbagai koleksi tanaman terbaik yang kami tawarkan. Mari kita tumbuhkan semangat cinta pada alam, menjaga keasriannya, dan menciptakan lingkungan yang lebih hijau. Terima kasih telah menjadi bagian dari perjalanan hijau kami.</p>
+  <h1>Info Tanaman</h1>
+  <p>Di sini, anda dapat menemukan informasi lengkap mengenai berbagai jenis tanaman yang kami sediakan</p>
+
+  <div class="row">
+    <div class="column">
+      <img src="Assets/img/imgTanaman.jpg" alt="Pertanian" style="width:100%" onclick="myFunction(this);"></div>
+    <div class="column">
+      <img src="Assets/img/imgTanaman2.jpg" alt="Tanaman Hias" style="width:100%" onclick="myFunction(this);"></div>
+    <div class="column">
+      <img src="Assets/img/imgTanaman3.jpg" alt="Mawar" style="width:100%" onclick="myFunction(this);"></div>
+    <div class="column">
+      <img src="Assets/img/imgTanaman4.jpg" alt="Perkebunan?" style="width:100%" onclick="myFunction(this);"></div>
+  </div>
+      
+  <div class="container-img">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+
+  <h1>Budidaya</h1>
+  <p id="budidaya">Pelajari cara budidaya secara efektif dan efisien dengan panduan lengkap kami</p>
+  <h1>Harga Pasar</h1>
+  <p id="hargaPasar">Harga pasar saat ini masih cenderung tinggi dikarenakan, kelangkaan tanaman</p>
+
+</section>
+
+<footer> Monster tanaman yang Hijau</footer>
+
+      
+      <script src="Assets/scripts/scripts.js">  </script>
+    
+  </body>
+</html>

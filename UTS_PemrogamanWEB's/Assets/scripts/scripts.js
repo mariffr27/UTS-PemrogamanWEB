@@ -1,0 +1,36 @@
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    var budidayaText = document.getElementById("budidaya");
+    var hargaPasarText = document.getElementById("hargaPasar");
+    var txtBudidaya, txthargaPasar;
+
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+
+    if(imgText.innerHTML == "Mawar") {
+        txtBudidaya = "Budidaya mawar dimulai dengan pemilihan lokasi yang tepat, yakni tempat yang mendapatkan sinar matahari penuh minimal 6 jam sehari. Tanah yang digunakan harus gembur, subur, dan memiliki pH antara 6 hingga 7. Mawar dapat diperbanyak dengan stek batang atau okulasi, serta membutuhkan perawatan seperti penyiraman yang teratur namun tidak berlebihan untuk mencegah akar busuk. Pemupukan dengan pupuk organik atau pupuk khusus mawar juga diperlukan agar tanaman mendapatkan nutrisi yang cukup untuk tumbuh optimal.Perawatan lanjutan meliputi pemangkasan cabang yang mati atau rusak untuk merangsang pertumbuhan bunga baru dan menjaga bentuk tanaman. Pengendalian hama dan penyakit, seperti kutu daun dan jamur, penting dilakukan dengan menggunakan pestisida alami atau kimia secara bijak. Dengan perawatan yang telaten, tanaman mawar akan tumbuh subur dan menghasilkan bunga yang indah, baik untuk keperluan dekorasi, hadiah, atau tujuan komersial."; 
+
+        txthargaPasar = "Harga pasar mawar dipengaruhi oleh berbagai faktor seperti kualitas bunga, musim, dan permintaan pasar. Mawar dengan warna dan bentuk yang menarik atau berasal dari varietas unggulan biasanya memiliki harga yang lebih tinggi, terutama saat momen spesial seperti Hari Valentine atau Hari Ibu, di mana permintaan meningkat. Selain itu, harga juga dipengaruhi oleh pasokan yang tersedia; jika pasokan terbatas atau ada gangguan dalam produksi, harga cenderung naik. Lokasi dan biaya distribusi juga turut memengaruhi harga, dengan harga yang lebih tinggi di daerah yang jauh dari pusat penghasil mawar karena biaya transportasi yang lebih besar.";
+    } else if(imgText.innerHTML == "Pertanian") {
+        txtBudidaya = " Budidaya pertanian adalah suatu kegiatan yang melibatkan pengolahan lahan untuk menanam berbagai jenis tanaman yang bermanfaat, baik untuk konsumsi manusia, pakan ternak, maupun untuk keperluan industri. Kegiatan ini mencakup beberapa tahapan, mulai dari pemilihan bibit yang berkualitas, penyiapan lahan, penanaman, perawatan tanaman, hingga panen. Faktor penting dalam budidaya pertanian adalah pemilihan lokasi yang sesuai, kondisi tanah yang subur, serta keberadaan air yang cukup. Selain itu, penggunaan pupuk yang tepat dan pengendalian hama dan penyakit juga sangat diperlukan untuk menjaga produktivitas tanaman Perawatan tanaman menjadi kunci utama dalam budidaya pertanian yang sukses. Penyiraman yang cukup, pemupukan yang teratur, serta pemangkasan atau penyiangan yang tepat akan mendukung pertumbuhan tanaman secara optimal. Di samping itu, teknologi pertanian yang berkembang pesat, seperti penggunaan alat modern untuk penanaman atau pemanenan, juga dapat meningkatkan efisiensi dan hasil yang diperoleh. Dengan perawatan yang baik dan ilmu pengetahuan yang tepat, budidaya pertanian dapat menghasilkan hasil yang melimpah dan berkelanjutan, memberikan manfaat besar bagi petani dan masyarakat luas."
+
+        txthargaPasar = "Harga pasar merujuk pada nilai atau harga suatu komoditas yang berlaku di pasar berdasarkan penawaran dan permintaan yang terjadi. Harga ini dipengaruhi oleh berbagai faktor, seperti kualitas produk, musim, jumlah pasokan, dan permintaan dari konsumen. Selain itu, faktor eksternal seperti kebijakan pemerintah, fluktuasi mata uang, serta kondisi iklim yang mempengaruhi hasil pertanian juga dapat memengaruhi harga pasar. Oleh karena itu, harga pasar sering kali berfluktuasi, tergantung pada kondisi yang ada di pasar dan faktor-faktor yang memengaruhi proses produksi dan distribusi.Pada umumnya, harga pasar untuk produk pertanian cenderung mengalami perubahan secara periodik, yang dapat naik atau turun tergantung pada musim panen dan kebutuhan pasar. Misalnya, saat panen melimpah, harga cenderung turun karena pasokan yang berlimpah, sedangkan pada saat kekurangan pasokan, harga akan meningkat. Begitu juga dengan tanaman hortikultura dan komoditas lainnya, harga pasar akan sangat bergantung pada faktor-faktor tersebut. Oleh karena itu, para petani dan produsen perlu memahami dinamika pasar agar dapat memaksimalkan keuntungan dan mengurangi kerugian yang disebabkan oleh perubahan harga yang tidak terduga."
+    } else if (imgText.innerHTML == "Tanaman Hias") {
+
+        txtBudidaya = "Budidaya tanaman hias melibatkan berbagai tahap mulai dari pemilihan bibit unggul, persiapan media tanam, hingga perawatan yang rutin. Tanaman hias memerlukan perhatian khusus terhadap faktor lingkungan seperti pencahayaan, kelembaban, dan suhu yang sesuai dengan jenis tanaman tersebut. Penyiraman, pemupukan, serta pemangkasan yang tepat juga penting untuk memastikan tanaman tumbuh dengan sehat dan menghasilkan bentuk atau warna daun dan bunga yang menarik. Pengendalian hama dan penyakit juga harus dilakukan secara bijak untuk mencegah kerusakan pada tanaman, sehingga dapat tumbuh optimal.";
+
+        txthargaPasar = "Harga pasar tanaman hias sangat bervariasi tergantung pada jenis tanaman, ukuran, dan kondisi tanaman tersebut. Tanaman hias langka atau dengan bentuk dan warna yang menarik biasanya dihargai lebih tinggi. Musim dan tren juga memengaruhi harga tanaman hias, di mana permintaan tinggi pada waktu tertentu, seperti saat perayaan atau pameran tanaman, dapat menyebabkan harga melonjak. Selain itu, lokasi penjualan dan biaya pengiriman juga mempengaruhi harga akhir tanaman hias di pasar, dengan harga yang lebih tinggi di daerah yang lebih jauh dari penghasil tanaman.";
+    } else {
+        txtBudidaya = "Budidaya perkebunan meliputi penanaman tanaman komersial seperti kelapa sawit, tebu, kopi, dan kakao yang biasanya memerlukan lahan luas dan perawatan intensif. Tahapan dalam budidaya perkebunan meliputi pemilihan bibit unggul, persiapan lahan, penanaman, serta perawatan rutin seperti penyiraman, pemupukan, dan pengendalian hama serta penyakit. Tanaman perkebunan umumnya memerlukan waktu yang cukup lama untuk tumbuh dan berproduksi secara maksimal, sehingga manajemen yang baik dan pengelolaan sumber daya alam yang efisien sangat penting untuk mencapai hasil yang optimal dan berkelanjutan.";
+
+        txthargaPasar = "Harga pasar hasil perkebunan dipengaruhi oleh berbagai faktor, seperti kualitas produk, permintaan global, serta kondisi cuaca yang memengaruhi hasil panen. Misalnya, harga kopi atau kelapa sawit dapat berfluktuasi tergantung pada musim dan kebijakan impor-ekspor negara penghasil. Selain itu, kondisi pasar internasional juga sangat berpengaruh, karena komoditas perkebunan sering kali diperdagangkan secara global. Fluktuasi harga juga dapat dipengaruhi oleh biaya produksi, seperti harga pupuk dan tenaga kerja, yang akan berdampak pada harga jual hasil perkebunan di pasar domestik maupun internasional.";
+    }
+
+    budidayaText.innerHTML = txtBudidaya;
+    hargaPasarText.innerHTML = txthargaPasar;
+
+
+
+}
