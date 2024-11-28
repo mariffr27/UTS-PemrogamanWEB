@@ -11,6 +11,8 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }  
 
 html {
