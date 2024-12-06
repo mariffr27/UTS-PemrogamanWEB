@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #28a745;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    background: #28a745;
+    padding: 0.5rem;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 2rem;
+}
+h1 {
+    color: #28a745;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+th {
+    background: #f4f4f4;
+}
+tr:nth-child(even) {
+    background: #f9f9f9;
+}   
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 2rem;
+}
+h1 {
+    color: #fff; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+.content {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropbtn {
+    background-color: #28a745;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-dua {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content, .dropdown-dua:hover .dropdown-content, .dropdown-tiga:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn, .dropdown-dua:hover .dropbtn, .dropdown-tiga:hover .dropbtn {background-color: #3e8e41;}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+}
